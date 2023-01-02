@@ -357,7 +357,7 @@ laptop-detect
 lsb-release
 mlocate
 #nomacs
-#oh-my-zsh-git
+oh-my-zsh-git
 p7zip
 pkgfile
 #plank
@@ -560,7 +560,7 @@ arcolinux-volumeicon-git
 #arcolinux-wayland-profile-git
 #arcolinux-xfce-panel-profiles-git
 #arcolinux-xmobar-git
-arcolinux-zsh-git
+#arcolinux-zsh-git
 
 ###########################################################################
 #                           ARCOLINUX DESKTOP FOLDER
@@ -568,7 +568,7 @@ arcolinux-zsh-git
 
 #arcolinux-awesome-git
 #arcolinux-berry-git
-arcolinux-bspwm-git
+#arcolinux-bspwm-git
 #arcolinux-budgie-git
 #arcolinux-cinnamon-git
 #arcolinux-cutefish-git
@@ -920,7 +920,7 @@ autorandr
 # things I install
 rust
 go
-oh-my-posh-git
+neovim
 lazygit-git
 nvim-packer-git
 
