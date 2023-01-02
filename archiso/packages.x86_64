@@ -13,10 +13,8 @@ bind
 #brltty
 broadcom-wl-dkms
 btrfs-progs
-clonezilla
 #cloud-init
 #crda
-cryptsetup
 #darkhttpd
 ddrescue
 dhclient
@@ -50,7 +48,7 @@ irssi
 #iw
 #iwd
 jfsutils
-#kitty-terminfo
+kitty-terminfo
 less
 #lftp
 libfido2
@@ -75,7 +73,7 @@ mkinitcpio-archiso
 mkinitcpio-nfs-utils
 modemmanager
 mtools
-nano
+#nano
 nbd
 ndisc6
 nfs-utils
@@ -85,9 +83,8 @@ ntfs-3g
 nvme-cli
 open-iscsi
 open-vm-tools
-openconnect
+#openconnect
 openssh
-openvpn
 partclone
 parted
 partimage
@@ -101,7 +98,6 @@ reflector
 reiserfsprogs
 rp-pppoe
 rsync
-rxvt-unicode-terminfo
 screen
 sdparm
 sg3_utils
@@ -120,7 +116,7 @@ udftools
 usb_modeswitch
 usbmuxd
 usbutils
-vim
+#vim
 #virtualbox-guest-utils-nox
 vpnc
 wireless-regdb
@@ -163,9 +159,9 @@ xf86-video-vmware
 mesa
 
 ###hardware video support
-nvidia-dkms
-nvidia-utils
-nvidia-settings
+#nvidia-dkms
+#nvidia-utils
+#nvidia-settings
 mesa-utils
 
 ###base-devel
@@ -178,7 +174,7 @@ virtualbox-guest-utils
 os-prober
 
 ###LUKS encryption
-cryptsetup
+#cryptsetup
 
 ###audio
 alsa-firmware
@@ -210,10 +206,10 @@ mobile-broadband-provider-info
 modemmanager
 networkmanager
 network-manager-applet
-networkmanager-openconnect
-networkmanager-openvpn
+#networkmanager-openconnect
+#networkmanager-openvpn
 networkmanager-pptp
-networkmanager-vpnc
+#networkmanager-vpnc
 openresolv
 
 ###file management
@@ -258,6 +254,7 @@ dmenu
 #evolution
 feh
 firefox
+google-chrome
 #flashplugin
 #galculator
 #geany
@@ -266,12 +263,12 @@ firefox
 #gsimplecal
 #guvcview
 imagemagick
-#inkscape
+inkscape
 #libreoffice-fresh
 #lshw
-#meld
+meld
 #micro
-nitrogen
+#nitrogen
 numlockx
 #pragha
 #qbittorrent
@@ -281,8 +278,6 @@ scrot
 variety
 #vlc
 
-###conky
-jq
 #lm_sensors
 
 ###cursors
@@ -292,10 +287,13 @@ jq
 adobe-source-sans-fonts
 awesome-terminal-fonts
 noto-fonts
+ttf-jetbrains-mono
 #ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
 ttf-hack
+ttf-font-awesome
+ttf-ms-fonts
 #ttf-inconsolata
 #ttf-liberation
 ttf-roboto
@@ -359,7 +357,7 @@ laptop-detect
 lsb-release
 mlocate
 #nomacs
-oh-my-zsh-git
+#oh-my-zsh-git
 p7zip
 pkgfile
 #plank
@@ -376,7 +374,7 @@ qt5ct
 #powertop
 ripgrep
 rofi
-rxvt-unicode
+#rxvt-unicode
 #simple-scan
 #shotwell
 speedtest-cli-git
@@ -421,9 +419,6 @@ bibata-cursor-theme-bin
 #breeze
 #xcursor-vanilla-dmz-aa
 
-###fonts
-ttf-font-awesome
-ttf-ms-fonts
 
 ###icons
 #faba-icon-theme-git
@@ -445,10 +440,10 @@ surfn-icons-git
 mkinitcpio-openswap
 
 ###utilities-repo
-alacritty
+kitty
 appstream
 archiso
-conky-lua-archers
+#conky-lua-archers
 downgrade
 #font-manager
 #glxinfo
@@ -471,10 +466,7 @@ rate-mirrors-bin
 #screenkey-git
 #sublime-text-4
 #the_platinum_searcher-bin
-the_silver_searcher
 #trizen
-urxvt-fullscreen
-urxvt-perls
 urxvt-resize-font-git
 #wttr
 yad
@@ -493,16 +485,16 @@ yay-bin
 #                           ARCOLINUX FOLDER
 ###########################################################################
 
-arcolinux-alacritty-git
+arcolinux-kitty-git
 arcolinux-arc-kde
 arcolinux-bin-git
 #arcolinux-candy-beauty-git
 #arcolinux-common-git
-arcolinux-conky-collection-git
+#arcolinux-conky-collection-git
 #arcolinux-conky-collection-plasma-git
 #arcolinux-cron-git
 #arcolinux-docs-git
-arcolinux-desktop-trasher-git
+#arcolinux-desktop-trasher-git
 #arcolinux-faces-git
 arcolinux-fonts-git
 #arcolinux-geany-git
@@ -530,7 +522,7 @@ archlinux-logout-git
 #arcolinux-meta-logout
 arcolinux-mirrorlist-git
 arcolinux-neofetch-git
-arcolinux-nitrogen-git
+#arcolinux-nitrogen-git
 #arcolinux-oblogout
 #arcolinux-oblogout-themes-git
 #arcolinux-obmenu-generator-git
@@ -542,11 +534,11 @@ arcolinux-pipemenus-git
 #arcolinux-plank-git
 #arcolinux-plank-themes-git
 #arcolinux-plasma-kservices-git
-arcolinux-polybar-git
+#arcolinux-polybar-git
 arcolinux-qt5-git
 #arcolinux-qt5-plasma-git
-arcolinux-rofi-git
-arcolinux-rofi-themes-git
+#arcolinux-rofi-git
+#arcolinux-rofi-themes-git
 arcolinux-root-git
 #arcolinux-slim
 #arcolinux-slimlock-themes-git
@@ -561,9 +553,9 @@ arcolinux-systemd-services-git
 #arcolinux-tint2-themes-git
 archlinux-tweak-tool-git
 arcolinux-variety-git
-arcolinux-variety-autostart-git
+#arcolinux-variety-autostart-git
 arcolinux-volumeicon-git
-arcolinux-wallpapers-git
+#arcolinux-wallpapers-git
 #arcolinux-wallpapers-dual-git
 #arcolinux-wayland-profile-git
 #arcolinux-xfce-panel-profiles-git
@@ -797,7 +789,7 @@ arcolinux-sddm-simplicity-git
 #                         PICOM OR COMPTON
 ###########################################################################
 
-picom
+picom-git
 
 ###########################################################################
 #                         GENERAL DESKTOP RELATED
@@ -860,7 +852,7 @@ xfce4-panel
 xfce4-power-manager
 #xfce4-session
 xfce4-settings
-xfce4-terminal
+#xfce4-terminal
 xfconf
 #xfdesktop
 xfwm4
@@ -923,3 +915,12 @@ xdo
 sutils-git
 xtitle-git
 autorandr
+
+
+# things I install
+rust
+go
+oh-my-posh-git
+lazygit-git
+nvim-packer-git
+
