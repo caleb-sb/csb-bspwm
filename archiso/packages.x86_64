@@ -1,4 +1,4 @@
-#####################################################################
+
 ##                            PACKAGES AVAILABLE
 #####################################################################
 
@@ -50,6 +50,7 @@ irssi
 jfsutils
 kitty-terminfo
 less
+most
 #lftp
 libfido2
 libusb-compat
@@ -284,6 +285,7 @@ variety
 #xcursor-simpleandsoft
 
 ###fonts
+ttf-meslo-nerd-font-powerlevel10k
 adobe-source-sans-fonts
 awesome-terminal-fonts
 noto-fonts
@@ -299,6 +301,7 @@ ttf-ms-fonts
 ttf-roboto
 ttf-roboto-mono
 ttf-ubuntu-font-family
+ttf-material-design-iconic-font
 
 ###icons
 #arc-icon-theme
@@ -921,6 +924,4 @@ autorandr
 rust
 go
 neovim
-lazygit-git
-nvim-packer-git
-
+xclip
