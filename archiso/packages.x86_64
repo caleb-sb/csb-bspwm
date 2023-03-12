@@ -13,8 +13,10 @@ bind
 #brltty
 broadcom-wl-dkms
 btrfs-progs
+#clonezilla
 #cloud-init
 #crda
+#cryptsetup
 #darkhttpd
 ddrescue
 dhclient
@@ -74,7 +76,7 @@ mkinitcpio-archiso
 mkinitcpio-nfs-utils
 modemmanager
 mtools
-#nano
+nano
 nbd
 ndisc6
 nfs-utils
@@ -86,6 +88,7 @@ open-iscsi
 open-vm-tools
 #openconnect
 openssh
+#openvpn
 partclone
 parted
 partimage
@@ -99,6 +102,7 @@ reflector
 reiserfsprogs
 rp-pppoe
 rsync
+#rxvt-unicode-terminfo
 screen
 sdparm
 sg3_utils
@@ -160,9 +164,9 @@ xf86-video-vmware
 mesa
 
 ###hardware video support
-#nvidia-dkms
-#nvidia-utils
-#nvidia-settings
+nvidia-dkms
+nvidia-utils
+nvidia-settings
 mesa-utils
 
 ###base-devel
@@ -212,6 +216,7 @@ network-manager-applet
 networkmanager-pptp
 #networkmanager-vpnc
 openresolv
+rtl8821cu-morrownr-dkms-git
 
 ###file management
 gvfs
@@ -279,6 +284,8 @@ scrot
 variety
 #vlc
 
+###conky
+#jq
 #lm_sensors
 
 ###cursors
@@ -326,7 +333,7 @@ bat
 dconf-editor
 dex
 #discord
-duf-bin
+duf
 edid-decode-git
 #evince
 expac
@@ -422,6 +429,9 @@ bibata-cursor-theme-bin
 #breeze
 #xcursor-vanilla-dmz-aa
 
+###fonts
+ttf-font-awesome
+ttf-ms-fonts
 
 ###icons
 #faba-icon-theme-git
@@ -443,6 +453,7 @@ surfn-icons-git
 mkinitcpio-openswap
 
 ###utilities-repo
+#alacritty
 kitty
 appstream
 archiso
@@ -469,7 +480,10 @@ rate-mirrors-bin
 #screenkey-git
 #sublime-text-4
 #the_platinum_searcher-bin
+#the_silver_searcher
 #trizen
+#urxvt-fullscreen
+#urxvt-perls
 urxvt-resize-font-git
 #wttr
 yad
@@ -488,7 +502,7 @@ yay-bin
 #                           ARCOLINUX FOLDER
 ###########################################################################
 
-arcolinux-kitty-git
+#arcolinux-kitty-git
 arcolinux-arc-kde
 arcolinux-bin-git
 #arcolinux-candy-beauty-git
